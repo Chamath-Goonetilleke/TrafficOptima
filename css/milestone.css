@@ -1,8 +1,8 @@
-.m-main {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 .m-body {
   font: normal 16px/1.5 "Titillium Web",
@@ -12,6 +12,7 @@
   color: #3c3f64;
   overflow-x: hidden;
   padding-bottom: 50px;
+  
 }
 
 .timeline ul li {
