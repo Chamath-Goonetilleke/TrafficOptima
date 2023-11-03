@@ -1,9 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 .m-body {
   font: normal 16px/1.5 "Titillium Web",
     sans-serif;
@@ -42,7 +36,7 @@
   width: 400px;
   padding: 20px;
   background: #fff;
-  box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
+  box-shadow: 4px 13px 30px 1px rgba(72, 176, 245, 0.61);
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -105,6 +99,11 @@
   transform: none;
   visibility: visible;
   opacity: 1;
+}
+
+.h1class{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 900px) {

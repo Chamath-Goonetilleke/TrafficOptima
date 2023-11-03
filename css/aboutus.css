@@ -22,8 +22,8 @@
 }
 
 .profile-card {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background-color: #f8f8f8;
     padding: 30px;
     border-radius: 35%;
@@ -58,7 +58,7 @@
 
 .caption {
     text-align: center;
-    transform: translateY(-170px);
+    transform: translateY(-130px);
     opacity: 0;
     pointer-events: none;
     transition: all .5s;
