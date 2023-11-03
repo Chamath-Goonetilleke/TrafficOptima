@@ -4,12 +4,9 @@
     padding-bottom: 10%;
     
   }
-  .Downloads .Downloads-Container{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+  
   .Downloads .Presentations1{
-   margin-top: 17%;
+   margin-top: 10%;
   }
   .Downloads .Documents {
     display: flex;
@@ -17,10 +14,7 @@
     align-items: center;
     justify-content: center;
   }
-  .Downloads .Documents1{
-    margin-left: 2%;
-    margin-right: 2%;
-  }
+ 
   .Downloads .Presentations{
     display: flex;
     flex-direction: column;
@@ -136,7 +130,19 @@
     border-radius: 10px;
     transition: transform 0.3s;
   }
+  .Downloads .box .doc_details_last{
+    margin-top:0%
+  }
+  .Downloads .box .doc_details_last img {
+    margin-bottom: 0; 
+  }
   
+  .Downloads .box .doc_details_last p.doc_type {
+    margin: 0; 
+  }
+  .Downloads .box:hover .doc_details_last{
+    display: none;
+  }
 .Downloads .box .additional-details {
     display: none; 
     text-align: left;
@@ -229,16 +235,22 @@
     font-family: Arial, sans-serif;
     color: #598dee ;
     font-size: larger;
+    align-items: center;
+    text-align: center;
   }
   
   .Downloads .Sub_Topic{
     margin: 5px 0;
     font-size: xx-large;
     font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: center;
   }
   .Downloads .Sub_Topic2{
     margin: 5px 0;
     font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: center;
   }
   .Downloads .rectangle {
     width: 250px;
