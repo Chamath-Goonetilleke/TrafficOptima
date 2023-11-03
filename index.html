@@ -1,55 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+     <link rel="icon" href="/images/logo.jpeg" />
+    <title>Traffic Optima</title>
+  </head>
+  <body>
     <!-- navbar-start -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <img src="images/logo2.png" width=25 alt="">
+        <a class="navbar-brand" href="#home">Traffic Optima</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <!-- Home -->
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <!-- project-scope -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Project Scope
+              </a>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item" href="#project-scope"
+                  >Literature Survey</a
+                >
+                <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                <a class="dropdown-item" href="#research_problem"
+                  >Research Problem & Solution</a
+                >
+                <a class="dropdown-item" href="#research_objectives"
+                  >Research Objectives</a
+                >
+                <a class="dropdown-item" href="#methodology">Methodology</a>
+                <a class="dropdown-item" href="#tech_used">Technologies</a>
+              </ul>
+            </li>
+            <!-- milestones -->
+            <li class="nav-item">
+              <a class="nav-link" href="#milestones">Milestones</a>
+            </li>
+            <!-- downloads -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Downloads
+              </a>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item" href="#downloads">Documents</a>
+                <a class="dropdown-item" href="#presentations">Presentations</a>
+              </ul>
+            </li>
+            <!-- About Us -->
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <!-- achievements -->
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <!-- contact us -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+
     <!-- navbar-end -->
-    
+
+   <div class="content">
+     <!-- home -->
+    <div
+      id="home"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/tfh02.jpg"
+            class="d-block w-100"
+            style="max-height: 100vh"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- achievements -->
+    <section id="achievements" style="background-color: #dde6f4;" >
+      <br>
+      <div class="achiv">
+        <center>
+          <h1>Achievements</h1>
+          <img src="images/icac.png" width="500" alt="" />
+        </center>
+      </div>
+    </section>
+
+    <!-- contact us -->
+    <section
+      id="contact"
+      class="main-sections"
+      style="background-color: #fdfefe"
+    >
+      <div class="container">
+        <span class="big-circle"></span>
+        <img src="images/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <br />
+            <br />
+            <p class="text">For further queries please reach us at</p>
+
+            <div>
+              <div class="information">
+                <img src="images/email.png" class="icon" alt="" />
+                <p>trafficoptima@gmail.com</p>
+              </div>
+            </div>
+            <p>Hope this project helped you in some manner. Thank you!</p>
+            <p>-Team Traffic Optima</p>
+          </div>
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="https://formsubmit.co/trafficoptima@gmail.com" method="post">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Name</label>
+                <span>Name</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+   </div>
+    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
