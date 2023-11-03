@@ -1,130 +1,1008 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-     <link rel="icon" href="/images/logo.jpeg" />
-    <title>Traffic Optima</title>
-  </head>
-  <body>
-    <!-- navbar-start -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <img src="images/logo2.png" width=25 alt="">
-        <a class="navbar-brand" href="#home">Traffic Optima</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <!-- Home -->
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <!-- project-scope -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Project Scope
-              </a>
-              <ul class="dropdown-menu">
-                <a class="dropdown-item" href="#project-scope"
-                  >Literature Survey</a
-                >
-                <a class="dropdown-item" href="#research_gap">Research Gap</a>
-                <a class="dropdown-item" href="#research_problem"
-                  >Research Problem & Solution</a
-                >
-                <a class="dropdown-item" href="#research_objectives"
-                  >Research Objectives</a
-                >
-                <a class="dropdown-item" href="#methodology">Methodology</a>
-                <a class="dropdown-item" href="#tech_used">Technologies</a>
-              </ul>
-            </li>
-            <!-- milestones -->
-            <li class="nav-item">
-              <a class="nav-link" href="#milestones">Milestones</a>
-            </li>
-            <!-- downloads -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Downloads
-              </a>
-              <ul class="dropdown-menu">
-                <a class="dropdown-item" href="#downloads">Documents</a>
-                <a class="dropdown-item" href="#presentations">Presentations</a>
-              </ul>
-            </li>
-            <!-- About Us -->
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <!-- achievements -->
-            <li class="nav-item">
-              <a class="nav-link" href="#achievements">Achievements</a>
-            </li>
-            <!-- contact us -->
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Us</a>
-            </li>
-          </ul>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js">
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="icon" href="/images/logo.jpeg" />
+  <title>Traffic Optima</title>
+</head>
+
+<body>
+  <!-- navbar-start -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <img src="images/logo2.png" width=25 alt="">
+      <a class="navbar-brand" href="#home">Traffic Optima</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <!-- Home -->
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#home">Home</a>
+          </li>
+          <!-- project-scope -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Project Scope
+            </a>
+            <ul class="dropdown-menu">
+              <a class="dropdown-item" href="#literature">Literature Survey</a>
+              <a class="dropdown-item" href="#research_gap">Research Gap</a>
+              <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+              <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+              <a class="dropdown-item" href="#methodology">Methodology</a>
+              <a class="dropdown-item" href="#tech_used">Technologies</a>
+            </ul>
+          </li>
+          <!-- milestones -->
+          <li class="nav-item">
+            <a class="nav-link" href="#milestones">Milestones</a>
+          </li>
+          <!-- downloads -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Downloads
+            </a>
+            <ul class="dropdown-menu">
+              <a class="dropdown-item" href="#documentsSection">Documents</a>
+              <a class="dropdown-item" href="#presentations">Presentations</a>
+            </ul>
+          </li>
+          <!-- About Us -->
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <!-- achievements -->
+          <li class="nav-item">
+            <a class="nav-link" href="#achievements">Achievements</a>
+          </li>
+          <!-- contact us -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- navbar-end -->
-
-   <div class="content">
-     <!-- home -->
-    <div
-      id="home"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
+  <div class="content">
+    <!-- home -->
+    <div id="home" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="images/tfh02.jpg"
-            class="d-block w-100"
-            style="max-height: 100vh"
-            alt="..."
-          />
+          <img src="images/tfh03.jpg" class="d-block w-100" style="max-height: 100vh" alt="..." />
         </div>
       </div>
     </div>
 
+    <!-- scope -->
+     <section id="project-scope" class="main-sections">
+    <div class="container">
+      <h5 class="section-headings">Project Scope</h5>
+      <!-- Literature Survey -->
+      <div id="literature" class="sub-section">
+        <h2>Literature Survey</h2>
+        <div class="objectives-section-content">
+          <div class="bjectives-section-figure">
+            <img src="./images/road_chart_accidents.jpg" width="50%" style="float: left;margin: 5px;" />
+          </div>
+          <p style="text-align: justify;">Traffic congestion presents a significant challenge in various countries,
+            including Sri Lanka. The swift urbanization and increased use of motor vehicles in Sri Lanka have
+            contributed to a rise in traffic jams, causing adverse effects on the environment, economy, and society.
+            According to a report published by the World Bank, Colombo, the largest city in Sri Lanka, experiences an
+            annual economic loss of approximately US$2 billion due to traffic congestion [1].</p>
+          <p style="text-align: justify;">Adaptive traffic control systems collect traffic information at intersections
+            using various sensing technologies. These include video cameras, LiDAR, radar, and inductive loops. [5]
+            These sensors enable getting data about current traffic information. Adaptive traffic control systems
+            utilize fuzzy logic, genetic algorithms, and reinforcement learning to optimize traffic flow and reduce
+            congestion.</p>
+          <p style="text-align: justify;">New techniques like YOLO and Fast-RCNN are being used to detect emergency
+            vehicles in real time. These methods use deep learning and image processing to identify vehicles and siren
+            lights accurately. Also, models like 1D CNN and LSTM are being developed to detect critical siren sounds.
+            While there are limitations to these technologies, they are helping to create a more reliable system for
+            detecting emergency vehicles and making the roads safer.</p>
+          <p style="text-align: justify;">The accident severity detection component is based on the YOLOv8 (You Look
+            Only Once Version 8) architecture, a deep learning model designed for image recognition and classification
+            tasks. YOLOv8 is based on cutting-edge advances in deep learning and computer vision, providing excellent
+            speed and accuracy. In the context of accident severity detection, this model can automatically extract
+            meaningful features from accident images to predict severity levels.</p>
+          <p style="text-align: justify;">This research uses image subtraction technology to analyze sequential video
+            frames to identify traffic offenses. This technique isolates moving objects, and potential violations are
+            shown. Additionally, the study uses YOLO (You Only Look Once) to identify motorcyclists who are not wearing
+            helmets instantly. By accurately identifying situations where riders violate helmet laws, YOLO's
+            sophisticated object detection abilities enhance road safety measures.</p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- Research Gap -->
+      <div id="research_gap" class="sub-section">
+        <h2>Research Gap</h2>
+        <p>Following areas are the research gaps found in most of the recent researches.</p>
+        <div class="row mt-5 research-gap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-lg-3 col-sm-6">
+                <div class="wrapperGapStyle">
+                  <div class="cardsGapStyle">
+                    <img src="images/trafficLights.png">
+                    <div class="infoGapStyle">
+                      <h3>Traffic Light Optimization</h3>
+                      <p style="text-align: justify;">Smart traffic systems have been implemented in many countries to
+                        improve traffic flow. However, there have been relatively few research studies that consider all
+                        these parameters, including the number of vehicles, types of vehicles on the road, as well as
+                        the average waiting times for vehicles.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-5 col-lg-3 col-sm-6">
+                <div class="wrapperGapStyle">
+                  <div class="cardsGapStyle">
+                    <img src="images/HORTON_Image.png">
+                    <div class="infoGapStyle">
+                      <h3>Emergency Vehicle Prioritization</h3>
+                      <p style="text-align: justify;">A research gap exists in developing an advanced emergency vehicle
+                        prioritization system that utilizes innovative methods for visual and sound verification,
+                        ensuring accurate and prompt detection of emergency vehicles in congested traffic conditions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-3 col-sm-6" id="cards">
+                <div class="wrapperGapStyle">
+                  <div class="cardsGapStyle">
+                    <img src="images/accidentImg.png">
+                    <div class="infoGapStyle">
+                      <h3>Accident Severity Detection</h3>
+                      <p style="text-align: justify;">There are CCTV cameras, they are primarily used for monitoring
+                        traffic flow and not for detecting accidents. A research gap exists in developing an efficient
+                        and accurate real-time detection especially focusing on identifying accident severity levels</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-3 col-sm-6">
+                <div class="wrapperGapStyle">
+                  <div class="cardsGapStyle">
+                    <img src="images/speedDetecting.jpg">
+                    <div class="infoGapStyle">
+                      <h3>Traffic Violation Detection</h3>
+                      <p style="text-align: justify;"> There is a research gap in developing a comprehensive traffic
+                        violation monitoring system that utilizes advanced technologies, identify and penalize various
+                        types of traffic
+                        violations. This system should focus on enhancing road safety by deterring and
+                        penalizing violators</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- Research Problem & Solution -->
+      <div id="research_problem" class="sub-section" style="margin-top: 40px;">
+        <h2>Research Problem & Solution</h2>
+        <div class="row">
+          <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+            <h5><strong>Proposed Problem</strong></h5>
+            </br>
+            <h4 class="highlight" style="color: #598dee;" style="text-align: justify;">How can advanced technologies optimize intersection traffic,
+              prioritize emergency vehicles, detect accidents, alert services, and prevent violations for enhanced road
+              safety?</h4>
+            <p></p>
+            <p style="text-align: justify;">
+              Traffic congestion has been a growing problem affecting various industries worldwide for many years.
+              Because most of Sri Lanka's traffic lights are pre-timed, the times for green and red are static, which
+              causes congestion on most roads. Here a novel traffic algorithm will be used to optimize the traffic. By
+              utilizing real-time data from vehicle detection and tracking, the algorithm determines optimal traffic
+              signal timings, prioritizing the movement of vehicles and minimizing traffic congestion.</p>
+            </br>
+          </div>
+
+          <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+            <div class="section-left">
+              <div class="section-figure">
+                <iframe width="100%" height="396" src="https://www.youtube.com/embed/xC_9o3PIhfA"
+                  title="Secure Software Development | Fixing Vulnerabilities of a Web Application" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+                <p>Product Demonstration</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="solutionBox">
+          <div class="solutionContent">
+            <h5><strong>Proposed Solution</strong></h5>
+            <p style="text-align: justify;">The study investigates the novel application of deep neural networks and
+              image-processing technologies
+              for intersection traffic control and emergency vehicle prioritizing, detecting violations of traffic laws
+              and accident severity. The method combines Q-Learning and an optimization algorithm for effective traffic
+              flow optimization. The comprehensive system includes a user-friendly desktop monitoring program that
+              focuses on isolated intersection traffic flow and is accessible to authorized parties like the police
+              department. The system uses YOLO, TensorFlow, and Convolutional</p>
+          </div>
+        </div>
+      </div>
+      <!-- Research Objectives -->
+      <h2 style="margin-top: 60px;">Research Objectives</h2>
+      <div>
+        <section class="objectives-timeline-section">
+          <div class="objectives-timeline-items">
+            <div class="objectives-timeline-item">
+              <div class="objectives-timeline-dot"></div>
+              <div class="objectives-timeline-date">Kalansooriya S.H</div>
+              <div class="objectives-timeline-content">
+                <h3>Traffic Signal Optimization</h3>
+                <p style="text-align: justify;">Developing an intelligent traffic light system is a multifaceted
+                  research endeavor driven by several interconnected objectives, each aimed at addressing the pressing
+                  challenges of traffic congestion, energy conservation, and urban mobility. At its core, this project
+                  seeks to revolutionize the way traffic is managed in urban environments, fostering efficiency,
+                  sustainability, and improved quality of life.</p>
+              </div>
+            </div>
+            <div class="objectives-timeline-item">
+              <div class="objectives-timeline-dot"></div>
+              <div class="objectives-timeline-date">De Alwis Gunathilake W.L.D.C.K</div>
+              <div class="objectives-timeline-content">
+                <h3>Emergency Vehicle Prioritization</h3>
+                <p style="text-align: justify;">The primary aim of this study is to enhance the priority given to
+                  emergency vehicles, including ambulances, police vehicles, and firetrucks, within an intersection's
+                  traffic light system. The system's procedure involves identifying an emergency vehicle and verifying
+                  the presence of an emergency situation within that vehicle by inspecting both the siren lights and
+                  siren sound. If either the siren lights or siren sound is activated, the system deduces the existence
+                  of an emergency. In the event of an emergency vehicle with a confirmed emergency situation, the system
+                  proceeds to halt traffic in other lanes and facilitate the unobstructed passage of the emergency
+                  vehicle.</p>
+              </div>
+            </div>
+            <div class="objectives-timeline-item">
+              <div class="objectives-timeline-dot"></div>
+              <div class="objectives-timeline-date">Shavinda W.A.P</div>
+              <div class="objectives-timeline-content">
+                <h3>Accident Detection</h3>
+                <p style="text-align: justify;">
+                  The third objective is to implement a comprehensive accident severity detection system that instantly
+                  notifies emergency services when a high-severity accident happens. This system intends to improve
+                  traffic safety by delivering early and accurate assessments of accident severity and aiding speedy
+                  rescue operations by leveraging advanced technologies such as deep learning and computer vision.
+                </p>
+              </div>
+            </div>
+            <div class="objectives-timeline-item">
+              <div class="objectives-timeline-dot"></div>
+              <div class="objectives-timeline-date">Madushan S.H.K</div>
+              <div class="objectives-timeline-content">
+                <h3>Traffic Violations Detection</h3>
+                <p style="text-align: justify;">Violation detection systems play a pivotal role in ensuring road safety
+                  and enforcing traffic regulations. These systems utilize advanced technologies such as computer vision
+                  and machine learning algorithms to identify and monitor various violations, including helmet
+                  detection, speed tracking, and wrong-way driving.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Methodology -->
+      <div id="methodology" class="sub-section" style="margin-top: 60px;">
+        <h2>Methodology</h2>
+        <div class="row">
+          <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+            <div class="section-left">
+              <div class="section-figure">
+                <img src="./images/disgrams.jpg" width="100%" style="align-items:center;border: 5px solid #555;" />
+                <p>Figure 2. High Level Architecture of the system.</p>
+              </div>
+            </div>
+          </div>
+          <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+            <p style="text-align: justify;">In our exploration strategy, we propose a creative answer for prioritizing
+              emergency vehicles proficiently at crossing points. The cycle includes a few key stages: first, detecting
+              the presence of an emergency vehicle and affirming the continuous emergency circumstance by noticing
+              dynamic alarm lights or sounds.</p>
+            <p style="text-align: justify;">Our system utilizes progressed computer vision and deep learning
+              technologies, using OpenCV for video outline extraction and Just go for it (You Just Look Once) for
+              vehicle detection and following. Live CCTV and receiver takes care of are handled through a Carafe server,
+              starting the emergency vehicle detection module.</p>
+            <p style="text-align: justify;">Also, our system optimizes traffic stream progressively, diminishing clog
+              and holding up times. It gives exact vehicle acknowledgment and following, permitting versatile changes in
+              accordance with traffic light timings. The easy to use web application goes about as a control center,
+              empowering heads to design decisively positioned cameras. </p>
+            <p style="text-align: justify;">Moreover, our examination digs into thorough traffic violation detection,
+              consolidating quantitative information investigation for speed following and incorrect way driving with
+              cutting edge deep learning methods like YOLOv3 for cap violation detection. </p>
+          </div>
+        </div>
+      </div>
+      <!-- Technologies Used -->
+      <div id="tech_used" class="sub-section">
+        <h2>Technologies Used</h2>
+        <div class="row mt-5" style="margin: auto;width: 100%;">
+          <div class="col-md-12 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/python.png" alt="Python" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 25px; margin-top: 10px;">Python</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/react.png" alt="React" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 25px; margin-top: 10px;">React</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/tensorflow.png" alt="Python" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 25px; margin-top: 10px;">Tensorflow</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/Keras_logo.png" alt="Keras" style="width: 80px;">
+            </div>
+            <p style="margin-left: 30px; margin-top: 10px;">Keras</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/mongo.png" alt="MongoDB" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 25px; margin-top: 10px;">MongoDB</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/GoogleCloud.png" alt="Google Cloud" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 25px; margin-top: 10px;">Google Clouds</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/colab.png" alt="Google Colab" style="width: 110px;">
+            </div>
+            <p style="margin-left: 25px; margin-top: 10px;">Google Colab</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/jwt.png" alt="Jwt" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 35px;">Jwt</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/stipes.png" alt="Jwt" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 35px; margin-top: 20px;">Jwt</p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-3 mb-5">
+            <div class="avatar technologies-rounded-box">
+              <img src="./Images/tech/pngwing.png" alt="Jwt" class="technologyStackImgStyling">
+            </div>
+            <p style="margin-left: 35px;">Jwt</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <!-- milestones -->
+    <section class="timeline m-body" id="milestones">
+      <br>
+      <center>
+        <h1>Timeline in Brief</h1>
+      </center>
+      <br>
+      <ul>
+        <li>
+          <div>
+            <time>March 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Project Proposal</h1>
+              <p>A Project Proposal is presented to potential sponsors or clients to receive funding or
+                get
+                your project approved.</p>
+              <p>Marks Allocated: 6</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>May 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Progress Presentation I</h1>
+              <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals
+                any gaps or inconsistencies in the design/requirements.</p>
+              <p>Marks Allocated: 6</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>May 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Status Document I</h1>
+              <p>Status of the project is validated up to progress presentation 1</p>
+              <p>Marks Allocated: 1</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>July 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Research Paper</h1>
+              <p>Describes what you contribute to existing knowledge, giving due recognition to all work
+                that you referred in making new knowledge</p>
+              <p>Marks Allocated: 10</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>September 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Progress Presentation II</h1>
+              <p>Progress Presentation II reviews the 90% completetion status demonstration of the
+                project. Along with a Poster presesntation which describes the project as a whole.</p>
+              <p>Marks Allocated: 18</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>September 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Status Document II</h1>
+              <p>Status of the project is validated up to progress presentation II</p>
+              <p>Marks Allocated: 1</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>September 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Final Report</h1>
+              <p>Final Report evalutes the completed project done throughout the year. Marks mentioned
+                below includes marks for Individual & group reports and also Final report.</p>
+              <p>Marks Allocated: 19</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>October 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Final Presentation & Viva</h1>
+              <p>Viva is held individually to assess each members contribution to the project.</p>
+              <p>Marks Allocated: 20</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>October 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Log Book</h1>
+              <p>This log book contains all the supervisor and co supervisor meeting evidance and research
+                progress </p>
+              <p>Marks Allocated: 3</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <time>November 2023</time>
+            <div class="discovery">
+              <h1 class="h1class">Project Website</h1>
+              <p>The Website helps to promote our research project and reveals all details related to the
+                project.</p>
+              <p>Marks Allocated: 2</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- downloads -->
+    <div class="Downloads">
+      <div class="Downloads-Container">
+         <br>
+      <center>
+        <h1>Downloads</h1>
+      </center>
+      <br>
+        <div class="Documents" id="documents-section">
+
+
+
+          <section id="documentsSection">
+            <div class="Documents1">
+              <h1 class="Sub_Topic">Documents</h1>
+              <p class="Sub_Topic2">Please find all documents related to this project below</p>
+
+              <div class="Documents" id="documents-section">
+                <div class="row-left hidden">
+                  <div class="row">
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/pdf.svg" width="70" height="90" />
+                        <p class="doc_type">Topic Assessment</p>
+                        <p class="doc_date">Submitted on 30/01/2023</p>
+                      </div>
+                      <div class="additional-details">
+                        <p class="doc_type"> Topic Assessment</p>
+                        <p class="doc_date">Submitted on 20/01/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Group</div>
+                              <a href="https://drive.google.com/drive/folders/1nnRX3wLoPbnGESdqPLvpisl8CMKIuo_T?usp=sharing"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/pdf.svg" width="70" height="90" />
+                        <p class="doc_type">Project Charter</p>
+                        <p class="doc_date">Submitted on 30/01/2023</p>
+                      </div>
+                      <div class="additional-details">
+                        <p class="doc_type">Project Charter</p>
+                        <p class="doc_date">Submitted on 30/01/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Group</div>
+                              <a href="https://drive.google.com/drive/folders/1i20NrX-hLLbl48U5LgnhgVmfynqk0k1c?usp=drive_link"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/pdf.svg" width="70" height="90" />
+                        <p class="doc_type">Project Proposal</p>
+                        <p class="doc_date">Submitted on 24/03/2023</p>
+                      </div>
+                      <div class="additional-details">
+                        <p class="doc_type"> Project Proposal</p>
+                        <p class="doc_date">Submitted on 24/03/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Individual</div>
+                              <a href="https://drive.google.com/drive/folders/1wsD2gQixVIqgkwCy3qpa5DEl7u5f1laD?usp=sharing"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/pdf.svg" width="70" height="90" />
+                        <p class="doc_type">Status Documents I</p>
+                        <p class="doc_date">Submitted on 22/05/2023</p>
+                      </div>
+                      <div class="additional-details">
+
+                        <p class="doc_type"> Status Documents I</p>
+                        <p class="doc_date">Submitted on 22/05/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Individual</div>
+                              <a href="https://drive.google.com/drive/folders/1RgGFJIBMQWSDjoBBzVzalpI2FR26eAPz?usp=drive_link"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+                <div class="row-right hidden">
+                  <div class="row">
+
+
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/pdf.svg" width="70" height="90" />
+                        <p class="doc_type">Status Documents II</p>
+                        <p class="doc_date">Submitted on 04/09/2023</p>
+                      </div>
+                      <div class="additional-details">
+                        <p class="doc_type"> Status Documents II</p>
+                        <p class="doc_date">Submitted on 04/09/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Individual</div>
+                              <a href="https://drive.google.com/drive/folders/1R4logIl9C0MW9Xibx6F60-I8x-RHLnoT?usp=drive_link"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/pdf.svg" width="70" height="90" />
+                        <p class="doc_type"> Research Paper</p>
+                        <p class="doc_date">Submitted on 20/06/2023</p>
+                      </div>
+                      <div class="additional-details">
+                        <p class="doc_type"> Research Paper</p>
+                        <p class="doc_date">Submitted on 20/06/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Group</div>
+                              <a href="https://drive.google.com/drive/folders/1a9VefXSpU-XUbjeQsZTCWV5eHQTnoBWL?usp=drive_link"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/pdf.svg" width="70" height="90" />
+                        <p class="doc_type">Final Report</p>
+                        <p class="doc_date">Submitted on 10/09/2023</p>
+                      </div>
+                      <div class="additional-details">
+
+                        <p class="doc_type"> Final Report</p>
+                        <p class="doc_date">Submitted on 10/09/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Individual</div>
+                              <a href="https://drive.google.com/drive/folders/1YrRmz_dpFen0-CGV5HTygkFtLDZQNGlv?usp=drive_link"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+
+                            </div>
+                          </div>
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Group</div>
+                              <a href="https://drive.google.com/drive/folders/18_hOGCYno5ooteuU1gv4GO76oSApPu9w?usp=drive_link"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="box">
+                      <div class="doc_details">
+                        <img src="./images/png.svg" width="70" height="90" />
+                        <p class="doc_type">Poster</p>
+                        <p class="doc_date">Submitted on 04/09/2023</p>
+                      </div>
+                      <div class="additional-details">
+
+                        <p class="doc_type">Poster</p>
+                        <p class="doc_date">Submitted on 04/09/2023</p>
+                        <div class="rectangles">
+                          <div class="rectangle">
+                            <div class="rectangle2">
+                              <div class="grp_invi_typ">Group</div>
+                              <a href="https://drive.google.com/drive/folders/1bD_eoiiWWCdM2ozyeYOWxtKxUI9xcFEM?usp=drive_link"
+                                class="download_btn_a">
+                                <div class="download_btn">Download</div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        </div>
+        <section id="presentations">
+          <div class="Presentations1">
+            <h1 class="Sub_Topic">Presentations</h1>
+            <p class="Sub_Topic2">Please find all presentations related this project below.</p>
+
+            <div class="Presentations">
+              <div class="row">
+
+                <div class="box hide-box">
+                  <div class="doc_details">
+
+                    <img src="./images/powerpoint-ppt.svg" width="70" height="90" />
+                    <p class="doc_type">Project Proposal</p>
+                    <p class="doc_date">Submitted on 28/03/2023</p>
+                  </div>
+                  <div class="additional-details">
+                    <p class="doc_type"> Project Proposal</p>
+                    <p class="doc_date">Submitted on 28/03/2023</p>
+                    <div class="rectangles">
+                      <div class="rectangle">
+                        <div class="rectangle2">
+                          <div class="grp_invi_typ">Group</div>
+                          <a href="https://drive.google.com/drive/folders/17mFHNhzJTo-PcHUhuqpl-2UBIXZ8Tfho?usp=drive_link"
+                            class="download_btn_a">
+                            <div class="download_btn">Download</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="box hide-box">
+                  <div class="doc_details">
+                    <img src="./images/powerpoint-ppt.svg" width="70" height="90" />
+                    <p class="doc_type">Progress<br /> Presentation I</p>
+                    <p class="doc_date">Submitted on 28/03/2023</p>
+                  </div>
+                  <div class="additional-details">
+                    <p class="doc_type"> Progress<br /> Presentation I</p>
+                    <p class="doc_date">Submitted on 22/05/2023</p>
+                    <div class="rectangles">
+                      <div class="rectangle">
+                        <div class="rectangle2">
+                          <div class="grp_invi_typ">Group</div>
+                          <a href="https://drive.google.com/drive/folders/1zMUEWu5fBO1fJqbc12s2M19kcmRMHNE3?usp=drive_link"
+                            class="download_btn_a">
+                            <div class="download_btn">Download</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="box hide-box last">
+                  <div class="doc_details_last">
+                    <img src="./images/powerpoint-ppt.svg" width="70" height="90" />
+                    <p class="doc_type">Progress<br /> Presentation II</p>
+                    <p class="doc_date">Submitted on 04/09/2023</p>
+                  </div>
+                  <div class="additional-details">
+                    <div class="doc_type">Progress<br /> Presentation II</div>
+                    <p class="doc_date">Submitted on 04/09/2023</p>
+                    <div class="rectangles">
+                      <div class="rectangle">
+                        <div class="rectangle2">
+                          <div class="grp_invi_typ">Group</div>
+                          <a href="https://drive.google.com/drive/folders/1wvilRg4x1Az7w26Eaa-DnPUdSqFwsqNN?usp=drive_link"
+                            class="download_btn_a">
+                            <div class="download_btn">Download</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="box hide-box last">
+                  <div class="doc_details_last">
+                    <img src="./images/powerpoint-ppt.svg" width="70" height="90" />
+                    <p class="doc_type"> Final <br /> Presentation</p>
+                    <p class="doc_date">Submitted on 31/10/2023</p>
+                  </div>
+                  <div class="additional-details">
+                    <p class="doc_type"> Final <br /> Presentation</p>
+                    <p class="doc_date">Submitted on 31/10/2023</p>
+                    <div class="rectangles">
+                      <div class="rectangle">
+                        <div class="rectangle2">
+                          <div class="grp_invi_typ">Group</div>
+                          <a href="https://drive.google.com/drive/folders/1iHmCKcu45OUAujjBHF9eRq6F667PDQAi?usp=drive_link"
+                            class="download_btn_a">
+                            <div class="download_btn">Download</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+          </section>
+      </div>
+      </section>
+    </div>
+
+    <!-- about us -->
+    <section id="about" style="background-color: #b7cdf4;">
+      <br><br>
+      <div class="team-container">
+
+        <div class="container">
+          <center>
+            <h1 class="section-headings">About Us</h1>
+          </center>
+          <br>
+          <br>
+          <div class="home-container1">
+            <!-- First Row (Spervisor & Co Supervisor)-->
+            <div class="profile-card">
+              <div class="img-profile">
+                <img src="images/harinda.jpg">
+              </div>
+              <div class="caption">
+                <h3>Dr.Harinda Fernando</h3>
+                <h4>(Supervisor)</h4>
+                <p>Assistant Professor</p>
+                <p>Sri Lanka Institute of Information Technology</p>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/harinda-fernando-7655bb67" class="no-underline" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:harinda.f@sliit.lk">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="profile-card">
+              <div class="img-profile">
+                <img src="images/dharshana.jpg">
+              </div>
+              <div class="caption">
+                <h3>Dr.Dharshana Kasthurirathna</h3>
+                <h4>(Co-Supervisor)</h4>
+                <p>Assistant Professor</p>
+                <p>Sri Lanka Institute of Information Technology</p>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/dharshana-kasthurirathna-a4a3275/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:dharshana.k@sliit.lk">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-container2">
+            <!-- Second Row (Student Team)-->
+            <div class="profile-card">
+              <div class="img-profile">
+                <img src="images/chamath.jpg">
+              </div>
+              <div class="caption">
+                <h3>De Alwis Gunathilake W.L.D.C.K</h3>
+                <h4>(Group Leader)</h4>
+                <p>Undergraduate</p>
+                <p>Sri Lanka Institute of Information Technology</p>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/chamath-goonetilleke-2aa1b0192/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:it20122096@my.sliit.lk">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="profile-card">
+              <div class="img-profile">
+                <img src="images/shavinda.jpg">
+              </div>
+              <div class="caption">
+                <h3>Shavinda W.A.P</h3>
+                <h4>(Group Member)</h4>
+                <p>Undergraduate</p>
+                <p>Sri Lanka Institute of Information Technology</p>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/pasindu-shavinda-116b2521a/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:it20140298@my.sliit.lk">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-card">
+              <div class="img-profile">
+                <img src="images/sugandhi.jpg">
+              </div>
+              <div class="caption">
+                <h3>Kalansooriya S.H</h3>
+                <h4>(Group Member)</h4>
+                <p>Undergraduate</p>
+                <p>Sri Lanka Institute of Information Technology</p>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/sugandhi-kalansooriya-968bb0213/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:it20137700@my.sliit.lk">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="profile-card">
+              <div class="img-profile">
+                <img src="images/madushan.jpg">
+              </div>
+              <div class="caption">
+                <h3>Madushan S.H.K</h3>
+                <h4>(Group Member)</h4>
+                <p>Undergraduate</p>
+                <p>Sri Lanka Institute of Information Technology</p>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/madushan-s-h-k-7198631a6/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:it20122614@my.sliit.lk">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
     <!-- achievements -->
-    <section id="achievements" style="background-color: #dde6f4;" >
+    <section id="achievements" style="background-color: #dde6f4;">
       <br>
       <div class="achiv">
         <center>
@@ -135,11 +1013,7 @@
     </section>
 
     <!-- contact us -->
-    <section
-      id="contact"
-      class="main-sections"
-      style="background-color: #fdfefe"
-    >
+    <section id="contact" class="contactus" style="background-color: #fdfefe">
       <div class="container">
         <span class="big-circle"></span>
         <img src="images/shape.png" class="square" alt="" />
@@ -187,8 +1061,9 @@
         </div>
       </div>
     </section>
-   </div>
-    <script src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

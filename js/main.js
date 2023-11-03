@@ -3,8 +3,8 @@ const navbar = document.querySelector(".navbar");
 const content = document.getElementById("content");
 const scrollThreshold = 100;
 
-// Function to handle the scroll event
-function handleScroll() {
+// Nav contactus
+function handleNavScroll() {
     const scrollY = window.scrollY || window.pageYYOffset;
 
     if (scrollY >= scrollThreshold) {
@@ -14,11 +14,9 @@ function handleScroll() {
     }
 }
 
-// Add a scroll event listener
-window.addEventListener('scroll', handleScroll);
+window.addEventListener('scroll', handleNavScroll);
 
-// Initial check for the scroll position
-handleScroll();
+handleNavScroll();
 
 function focusFunc() {
   let parent = this.parentNode;
@@ -36,3 +34,72 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
+
+//milestone
+var items = document.querySelectorAll(".timeline li");
+
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function callbackFunc() {
+  for (var i = 0; i < items.length; i++) {
+    if (isElementInViewport(items[i])) {
+      if (!items[i].classList.contains("in-view")) {
+        items[i].classList.add("in-view");
+      }
+    } else if (items[i].classList.contains("in-view")) {
+      items[i].classList.remove("in-view");
+    }
+  }
+}
+
+window.addEventListener("load", callbackFunc);
+window.addEventListener("scroll", callbackFunc);
+
+//downloads
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function handleScroll() {
+  var documentsSection = document.getElementById("documents-section");
+  var leftBoxes = documentsSection.querySelector(".row-left");
+  var rightBoxes = documentsSection.querySelector(".row-right");
+  var presentationsSection = document.querySelector(".Presentations");
+  var presentationBoxes = presentationsSection.querySelectorAll(".box");
+
+  if (isElementInViewport(documentsSection)) {
+    leftBoxes.classList.add("animate-left");
+    rightBoxes.classList.add("animate-right");
+
+    leftBoxes.classList.remove("hidden");
+    rightBoxes.classList.remove("hidden");
+  }
+  if (isElementInViewport(presentationsSection)) {
+    presentationBoxes.forEach(function (box, index) {
+      setTimeout(function () {
+        box.classList.remove("hide-box");
+        box.classList.add("slide-in");
+      }, index * 100);
+    });
+  }
+}
+
+window.addEventListener("scroll", handleScroll);
+
+handleScroll();
