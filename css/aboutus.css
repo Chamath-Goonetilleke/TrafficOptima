@@ -5,32 +5,23 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins;
-}
-
-.team-container .home-container1 {
-    width: 100%;
-    height: 55vh;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     background-color: #598dee;
-    /* padding-top: -90px; */
-
+    min-height: 100vh;
 }
 
-.team-container .home-container2 {
+.home-container1, .home-container2 {
     width: 100%;
-    height: 55vh;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    background-color: #598dee;
-
-
+    align-items: center;
 }
 
-.team-container .profile-card {
-    position: relative;
+.profile-card {
     width: 180px;
     height: 180px;
     background-color: #f8f8f8;
@@ -41,23 +32,23 @@
     margin: 0 20px;
 }
 
-.team-container .profile-card:hover {
+.profile-card:hover {
     border-radius: 10px;
     height: 300px;
 }
 
-.team-container .profile-card .img {
+.profile-card .img {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.team-container .profile-card:hover img {
+.profile-card:hover img {
     border-radius: 10px;
     transform: translateY(-55px);
 }
 
-.team-container .img img {
+.img img {
     object-fit: fill;
     width: 100%;
     border-radius: 60%;
@@ -65,7 +56,7 @@
     z-index: 99;
 }
 
-.team-container .caption {
+.caption {
     text-align: center;
     transform: translateY(-170px);
     opacity: 0;
@@ -73,32 +64,32 @@
     transition: all .5s;
 }
 
-.team-container .profile-card:hover .caption {
+.profile-card:hover .caption {
     opacity: 1;
     pointer-events: all;
 }
 
-.team-container .caption h3 {
+.caption h3 {
     font-size: 14px;
     color: #0c52a1;
     font-weight: 600;
     margin-bottom: 2px;
 }
 
-.team-container .caption h4 {
+.caption h4 {
     font-size: 12px;
     color: purple;
     font-weight: 400;
     margin-bottom: 6px;
 }
 
-.team-container .caption p {
+.caption p {
     font-size: 11px;
     font-weight: 500;
     margin: 2px 0 2px 0;
 }
 
-.team-container .caption .social-links i {
+.caption .social-links i {
     font-size: 21px;
     margin: 0 6px;
     cursor: pointer;
@@ -107,10 +98,19 @@
     margin-top: 10px;
 }
 
-.team-container .caption .social-links i:hover {
+.caption .social-links i:hover {
     color: #0c52a1;
 }
 
 a {
     text-decoration: none;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .profile-card {
+        width: 190px; /* Cards will take full width on smaller screens */
+        height: 190px; /* Let the height adjust according to content */
+        margin: 30px 20px; /* Adjust the margin as needed */
+    }
 }
