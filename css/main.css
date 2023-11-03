@@ -18,7 +18,7 @@
   justify-content: space-around;
 }
 .cardsGapStyle {
-  width: 320px;
+  width: 290px;
   height: 400px;
   padding: 2rem 1rem;
   background: #fff;
@@ -138,7 +138,7 @@
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: #2f363e;
+  background-color: #4190ea;
   left: calc(50% - 1px);
 }
 .objectives-timeline-item {
@@ -159,7 +159,7 @@
 .objectives-timeline-dot {
   height: 16px;
   width: 16px;
-  background-color: #eaa023;
+  background-color: #030303;
   position: absolute;
   left: calc(50% - 8px);
   border-radius: 50%;
@@ -167,11 +167,11 @@
 }
 .objectives-timeline-date {
   font-size: 18px;
-  color: #eaa023;
+  color: #030202;
   margin: 6px 0 15px;
 }
 .objectives-timeline-content {
-  background-color: #2f363e;
+  background-color: #2779d6ad;
   padding: 30px;
   border-radius: 5px;
 }
@@ -183,7 +183,7 @@
   font-weight: 500;
 }
 .objectives-timeline-content p {
-  color: #c8c8c8;
+  color: #faf9f9;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
