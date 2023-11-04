@@ -90,16 +90,23 @@ function handleScroll() {
     leftBoxes.classList.remove("hidden");
     rightBoxes.classList.remove("hidden");
   }
-  if (isElementInViewport(presentationsSection)) {
+  if (window.innerWidth >= 1200 && isElementInViewport(presentationsSection)) {
     presentationBoxes.forEach(function (box, index) {
       setTimeout(function () {
         box.classList.remove("hide-box");
         box.classList.add("slide-in");
       }, index * 100);
     });
+  }else if(isElementInViewport(presentationsSection)){
+    presentationBoxes.forEach(function (box, index) {
+      setTimeout(function () {
+        box.classList.remove("hide-box");
+       
+      }, index * 100);
+    });
   }
 }
 
 window.addEventListener("scroll", handleScroll);
-
+window.addEventListener('resize', handleScroll);
 handleScroll();
