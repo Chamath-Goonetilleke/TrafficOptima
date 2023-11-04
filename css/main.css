@@ -1,5 +1,5 @@
 .literatureReferences {
-  font-size: x-small;
+  font-size: small;
 }
 .literatureContent {
   text-align: justify;
@@ -125,11 +125,11 @@
 .objectives-timeline-section {
   /* background-color: #24292d; */
   min-height: 100vh;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
 }
 .objectives-timeline-items {
-  max-width: 1000px;
-  margin: auto;
+  max-width: 1600px;
+  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -139,8 +139,8 @@
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: #4190ea;
-  left: calc(50% - 1px);
+  background-color: #0a0b0c;
+  /* left: calc(50% - 1px); */
 }
 .objectives-timeline-item {
   margin-bottom: 40px;
@@ -151,20 +151,20 @@
   margin-bottom: 0;
 }
 .objectives-timeline-item:nth-child(odd) {
-  padding-right: calc(50% + 30px);
-  text-align: right;
+  /* padding-right: calc(50% + 30px); */
+  /* text-align: left; */
 }
 .objectives-timeline-item:nth-child(even) {
-  padding-left: calc(50% + 30px);
+  /* padding-left: calc(50% + 30px); */
 }
 .objectives-timeline-dot {
   height: 16px;
   width: 16px;
   background-color: #030303;
   position: absolute;
-  left: calc(50% - 8px);
+  /* left: calc(50% - 8px); */
   border-radius: 50%;
-  top: 10px;
+  /* top: 10px; */
 }
 .objectives-timeline-date {
   font-size: 18px;
@@ -172,22 +172,27 @@
   margin: 6px 0 15px;
 }
 .objectives-timeline-content {
-  background-color: #2779d6ad;
+  background-color: white;
   padding: 30px;
   border-radius: 5px;
+  box-shadow: 0px 3px 12px 0px rgb(211, 212, 212);
 }
 .objectives-timeline-content h3 {
   font-size: 20px;
-  color: #ffffff;
+  color: rgb(18, 208, 242);
   margin: 0 0 10px;
   text-transform: capitalize;
   font-weight: 500;
 }
 .objectives-timeline-content p {
-  color: #faf9f9;
+  color: black;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
+}
+.objectives-timeline-content:hover {
+  box-shadow: 0px 3px 12px 0px rgb(15, 16, 16);
+  /* padding-top: 50px; */
 }
 .objectives-section-figure {
   text-align: center;
@@ -203,7 +208,7 @@
   background-color: #f2f2f200;
   border-radius: 50%;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   justify-content: center;
   align-items: center;
