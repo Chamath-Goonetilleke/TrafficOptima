@@ -45,7 +45,6 @@ textarea {
 
 /* milestones */
 .m-body {
-  font: normal 16px/1.5 "Titillium Web", sans-serif;
   background: linear-gradient(54deg, #9164ff, #8bfff4);
   color: #3c3f64;
   overflow-x: hidden;
@@ -347,14 +346,12 @@ textarea {
 
 .Downloads .doc_type {
   margin-top: 10%;
-  font-family: Arial, sans-serif;
   font-size: larger;
   font-weight: bold;
 }
 
 .Downloads .doc_date {
   margin-top: 5%;
-  font-family: Arial, sans-serif;
   font-size: medium;
   font-weight: 500;
   color: rgb(140, 138, 138);
@@ -362,12 +359,10 @@ textarea {
 .Downloads .grp_invi_typ {
   margin-left: 5%;
   margin-top: 3%;
-  font-family: Arial, sans-serif;
   font-weight: 500;
 }
 .Downloads .download_btn {
   margin: 10%;
-  font-family: Arial, sans-serif;
   font-weight: 500;
   color: #598dee;
   cursor: pointer;
@@ -400,7 +395,6 @@ textarea {
 .Downloads .Topic1 {
   margin-top: 5%;
   margin-bottom: 5px;
-  font-family: Arial, sans-serif;
   color: #598dee;
   font-size: larger;
   align-items: center;
@@ -410,14 +404,12 @@ textarea {
 .Downloads .Sub_Topic {
   margin: 5px 0;
   font-size: xx-large;
-  font-family: Arial, sans-serif;
   align-items: center;
   text-align: left;
   margin-left: 10%;
 }
 .Downloads .Sub_Topic2 {
   margin: 5px 0;
-  font-family: Arial, sans-serif;
   align-items: center;
   text-align: left;
   margin-left: 10%;
@@ -437,7 +429,6 @@ textarea {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Poppins;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -792,9 +783,6 @@ a {
   width: 100px;
   height: 100px;
 }
-.literaturetextStyle {
-  font-family: "Roboto", sans-serif;
-}
 /* styling */
 
 .wrapperGapStyle {
@@ -1009,7 +997,7 @@ a {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  max-height: 400px;
+  max-height: 550px;
   margin-top: 6px;
   width: 52%;
 }
