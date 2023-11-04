@@ -478,6 +478,7 @@ textarea {
   transition: all 0.4s;
   z-index: 99;
   transform: translateY(-55px);
+  height: 210px;
 }
 
 .caption {
@@ -1207,5 +1208,8 @@ a {
     width: 230px; /* Cards will take full width on smaller screens */
     height: 350px; /* Let the height adjust according to content */
     margin: 30px 20px; /* Adjust the margin as needed */
+  }
+  .profile-card .img-profile img {
+    height: 190px;
   }
 }
