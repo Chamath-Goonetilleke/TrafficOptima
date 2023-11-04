@@ -175,11 +175,11 @@
   background-color: white;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0px 3px 12px 0px rgb(211, 212, 212);
+  box-shadow: 0px 3px 12px 0px #b7cdf4;
 }
 .objectives-timeline-content h3 {
   font-size: 20px;
-  color: rgb(18, 208, 242);
+  color: #598dee;
   margin: 0 0 10px;
   text-transform: capitalize;
   font-weight: 500;
@@ -191,7 +191,7 @@
   line-height: 22px;
 }
 .objectives-timeline-content:hover {
-  box-shadow: 0px 3px 12px 0px rgb(15, 16, 16);
+  box-shadow: 0px 3px 12px 0px rgb(25, 200, 200);
   /* padding-top: 50px; */
 }
 .objectives-section-figure {
