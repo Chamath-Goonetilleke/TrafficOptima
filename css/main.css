@@ -403,7 +403,7 @@ textarea {
   }
   .Downloads .Topic1 {
     margin-top: 5%;
-    margin-bottom: 5px 0;
+    margin-bottom: 5px;
     font-family: Arial, sans-serif;
     color: #598dee ;
     font-size: larger;
@@ -549,7 +549,6 @@ a {
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-left: "5rem";
 }
 
 .contactus .contact-form {
@@ -787,7 +786,7 @@ a {
 
 /* project scope */
 .literatureReferences {
-  font-size: x-small;
+  font-size: small;
 }
 .literatureContent {
   text-align: justify;
@@ -870,13 +869,13 @@ a {
 .solutionBox {
   position: relative;
   width: 100%;
-  min-height: 300px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
-  margin: 0 auto;
-  padding: 20px;
+  /* margin: 0 auto; */
+  padding: 10px;
 }
 .solutionBox:before {
   content: "";
@@ -904,7 +903,7 @@ a {
   background: linear-gradient(105deg, #006aff, #060c21, #00bcd4);
 }
 .solutionContent {
-  padding: 10px;
+  padding: 4px;
   box-sizing: border-box;
   color: #050505;
 }
@@ -913,11 +912,11 @@ a {
 .objectives-timeline-section {
   /* background-color: #24292d; */
   min-height: 100vh;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
 }
 .objectives-timeline-items {
-  max-width: 1000px;
-  margin: auto;
+  max-width: 1600px;
+  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -927,8 +926,8 @@ a {
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color: #4190ea;
-  left: calc(50% - 1px);
+  background-color: #0a0b0c;
+  /* left: calc(50% - 1px); */
 }
 .objectives-timeline-item {
   margin-bottom: 40px;
@@ -939,20 +938,20 @@ a {
   margin-bottom: 0;
 }
 .objectives-timeline-item:nth-child(odd) {
-  padding-right: calc(50% + 30px);
-  text-align: right;
+  /* padding-right: calc(50% + 30px); */
+  /* text-align: left; */
 }
 .objectives-timeline-item:nth-child(even) {
-  padding-left: calc(50% + 30px);
+  /* padding-left: calc(50% + 30px); */
 }
 .objectives-timeline-dot {
   height: 16px;
   width: 16px;
   background-color: #030303;
   position: absolute;
-  left: calc(50% - 8px);
+  /* left: calc(50% - 8px); */
   border-radius: 50%;
-  top: 10px;
+  /* top: 10px; */
 }
 .objectives-timeline-date {
   font-size: 18px;
@@ -960,22 +959,27 @@ a {
   margin: 6px 0 15px;
 }
 .objectives-timeline-content {
-  background-color: #2779d6ad;
+  background-color: white;
   padding: 30px;
   border-radius: 5px;
+  box-shadow: 0px 3px 12px 0px #b7cdf4;
 }
 .objectives-timeline-content h3 {
   font-size: 20px;
-  color: #ffffff;
+  color: #598dee;
   margin: 0 0 10px;
   text-transform: capitalize;
   font-weight: 500;
 }
 .objectives-timeline-content p {
-  color: #faf9f9;
+  color: black;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
+}
+.objectives-timeline-content:hover {
+  box-shadow: 0px 3px 12px 0px rgb(25, 200, 200);
+  /* padding-top: 50px; */
 }
 .objectives-section-figure {
   text-align: center;
@@ -991,7 +995,7 @@ a {
   background-color: #f2f2f200;
   border-radius: 50%;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1017,6 +1021,7 @@ a {
     padding: 10px;
   }
 }
+
 
 @media (max-width: 850px) {
   .contactus .form {
@@ -1060,7 +1065,7 @@ a {
   .navbar-collapse {
     background-color: #598dee;
     padding: 0.5rem;
-    padding=left: 1rem;
+    padding-left: 1rem;
   }
   .nav-link {
     color: white;
@@ -1085,8 +1090,7 @@ a {
     font-size:15px !important;
   }
   .navbar-toggler{
-    padding=top:-10px
-    max-height:25px;
+    max-height:30px;
     max-width:40px;
   }
   .navbar-toggler-icon{
