@@ -1147,33 +1147,36 @@ a {
   }
 }
 /* milestones */
+/* milestones */
 @media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 250px;
-    flex-direction: column;
+    width: 550px;
+    height: 400px;
   }
 
   .timeline ul li div div {
-    width: 80%;
+    width: 250px;
+    height: 300px;
     margin: 10px;
   }
 
-  .timeline ul li:nth-of-type(even) > div {
+  .timeline ul li:nth-of-type(even)>div {
     left: -289px;
   }
+
 }
 
 @media screen and (max-width: 600px) {
   .timeline ul li {
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   .timeline ul li div {
     width: calc(100vw - 91px);
   }
 
-  .timeline ul li:nth-of-type(even) > div {
-    left: 45px;
+  .timeline ul li:nth-of-type(even)>div {
+    left: 35px;
   }
 }
 /* about us */
