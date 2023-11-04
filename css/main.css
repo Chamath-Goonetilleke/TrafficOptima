@@ -360,7 +360,8 @@ textarea {
   color: rgb(140, 138, 138);
 }
 .Downloads .grp_invi_typ {
-  margin: 5%;
+  margin-left: 5%;
+  margin-top: 3%;
   font-family: Arial, sans-serif;
   font-weight: 500;
 }
@@ -1183,10 +1184,9 @@ a {
     margin: 10px;
   }
 
-  .timeline ul li:nth-of-type(even)>div {
+  .timeline ul li:nth-of-type(even) > div {
     left: -289px;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -1198,7 +1198,7 @@ a {
     width: calc(100vw - 91px);
   }
 
-  .timeline ul li:nth-of-type(even)>div {
+  .timeline ul li:nth-of-type(even) > div {
     left: 35px;
   }
 }
