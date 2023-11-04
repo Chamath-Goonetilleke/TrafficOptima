@@ -905,11 +905,12 @@ a {
   /* padding: 10px 15px; */
 }
 .objectives-timeline-items {
-  max-width: 1600px;
+  max-width: 1400px;
   /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  margin-right: 40px;
 }
 .objectives-timeline-items::before {
   content: "";
@@ -940,8 +941,9 @@ a {
   background-color: #030303;
   position: absolute;
   /* left: calc(50% - 8px); */
+  left: -7px;
   border-radius: 50%;
-  /* top: 10px; */
+  top: 50%;
 }
 .objectives-timeline-date {
   font-size: 18px;
