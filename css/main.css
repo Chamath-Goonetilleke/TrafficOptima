@@ -779,6 +779,11 @@ a {
 .literatureContent {
   text-align: justify;
 }
+
+.tech-name{
+  margin-top: 20px;
+}
+
 .technologyStackImgStyling {
   width: 100px;
   height: 100px;
